@@ -48,7 +48,7 @@ export default function Services() {
             <div
               key={titleEn}
               className="relative overflow-hidden rounded-2xl group cursor-default"
-              style={{ background: 'url(/assets/card-bg.svg) center center / cover no-repeat' }}
+              style={{ background: 'url(/card-bg.svg) center center / cover no-repeat' }}
             >
               {/* Fallback gradient */}
               <div className="absolute inset-0 bg-gradient-to-br from-dark-burg to-black-red -z-10" />

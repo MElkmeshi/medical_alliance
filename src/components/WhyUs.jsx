@@ -16,7 +16,7 @@ export default function WhyUs() {
       {/* Background texture */}
       <div
         className="absolute inset-0 opacity-[0.05] bg-repeat pointer-events-none"
-        style={{ backgroundImage: 'url(/assets/pattern.svg)', backgroundSize: '320px' }}
+        style={{ backgroundImage: 'url(/pattern.svg)', backgroundSize: '320px' }}
         aria-hidden="true"
       />
 

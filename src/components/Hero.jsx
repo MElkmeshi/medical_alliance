@@ -6,7 +6,7 @@ export default function Hero() {
     <section
       id="home"
       className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
-      style={{ background: 'url(/assets/hero-bg.svg) center center / cover no-repeat' }}
+      style={{ background: 'url(/hero-bg.svg) center center / cover no-repeat' }}
     >
       {/* Fallback gradient if SVG doesn't load */}
       <div className="absolute inset-0 bg-gradient-radial from-rich-red/80 to-black-red -z-10" />
