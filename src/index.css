@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-black-red:  #250902;
+  --color-dark-burg:  #38040E;
+  --color-deep-crim:  #640D14;
+  --color-rich-red:   #800E13;
+  --color-brand-red:  #AD2831;
+
+  --font-sans: 'Montserrat', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
