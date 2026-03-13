@@ -1,5 +1,5 @@
 import divider from '/assets/section-divider.svg'
-import logoMark from '/assets/logo-mark-white.svg'
+import logoMark from '/assets/stacked_crescent_white.svg'
 
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
         src={logoMark}
         alt=""
         aria-hidden="true"
-        className="absolute bottom-16 right-10 w-48 md:w-72 opacity-[0.06] pointer-events-none select-none"
+        className="absolute bottom-8 right-0 w-72 md:w-[520px] opacity-[0.08] pointer-events-none select-none"
       />
 
       {/* Content */}

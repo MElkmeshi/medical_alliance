@@ -1,17 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-label="Brand Pattern">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 160 120" role="img" aria-label="Brand Pattern">
   <defs>
-    <pattern id="crescentPattern" x="0" y="0" width="80" height="60" patternUnits="userSpaceOnUse">
-      <!-- Small dual crescent tile -->
-      <g transform="translate(5, 8) scale(0.32)">
-        <path d="M 100 18 C 88 18, 8 42, 8 80 C 8 118, 88 142, 100 142 C 107 142, 118 118, 114 80 C 118 42, 107 18, 100 18 Z" fill="#AD2831"/>
-        <path d="M 120 18 C 132 18, 212 42, 212 80 C 212 118, 132 142, 120 142 C 113 142, 102 118, 106 80 C 102 42, 113 18, 120 18 Z" fill="#AD2831"/>
-      </g>
+    <pattern id="logoPattern" x="0" y="0" width="80" height="60" patternUnits="userSpaceOnUse">
+      <!-- Primary tile -->
+      <image href="/stacked_crescent_dark.svg" x="4" y="6" width="34" height="29" opacity="0.8"/>
       <!-- Offset duplicate -->
-      <g transform="translate(45, 38) scale(0.32)">
-        <path d="M 100 18 C 88 18, 8 42, 8 80 C 8 118, 88 142, 100 142 C 107 142, 118 118, 114 80 C 118 42, 107 18, 100 18 Z" fill="#AD2831"/>
-        <path d="M 120 18 C 132 18, 212 42, 212 80 C 212 118, 132 142, 120 142 C 113 142, 102 118, 106 80 C 102 42, 113 18, 120 18 Z" fill="#AD2831"/>
-      </g>
+      <image href="/stacked_crescent_dark.svg" x="44" y="31" width="34" height="29" opacity="0.8"/>
     </pattern>
   </defs>
-  <rect width="160" height="120" fill="url(#crescentPattern)"/>
+  <rect width="160" height="120" fill="url(#logoPattern)"/>
 </svg>

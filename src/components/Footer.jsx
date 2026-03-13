@@ -1,11 +1,11 @@
-import logoWhite from '/assets/logo-white.svg'
+import logoWhite from '/assets/stacked_crescent_white.svg'
 
 export default function Footer() {
   return (
     <footer className="bg-black-red py-10">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <a href="#home">
-          <img src={logoWhite} alt="Medical Alliance" className="h-9 w-auto opacity-80 hover:opacity-100 transition-opacity" />
+          <img src={logoWhite} alt="Medical Alliance" className="h-20 w-auto opacity-80 hover:opacity-100 transition-opacity" />
         </a>
 
         <p className="text-white/40 text-sm text-center">

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img" aria-label="Medical Alliance Mark">
-  <!-- Left crescent (facing right) -->
-  <path d="M 100 18 C 88 18, 8 42, 8 80 C 8 118, 88 142, 100 142 C 107 142, 118 118, 114 80 C 118 42, 107 18, 100 18 Z" fill="#AD2831"/>
-  <!-- Right crescent (facing left) -->
-  <path d="M 120 18 C 132 18, 212 42, 212 80 C 212 118, 132 142, 120 142 C 113 142, 102 118, 106 80 C 102 42, 113 18, 120 18 Z" fill="#AD2831"/>
-</svg>

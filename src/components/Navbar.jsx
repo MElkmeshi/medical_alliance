@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import logoWhite from '/assets/logo-white.svg'
-import logoDark from '/assets/logo-dark.svg'
+import logoWhite from '/assets/horizontal_crescent_white.svg'
+import logoDark from '/assets/horizontal_crescent_white.svg'
 
 const navLinks = [
   { label: 'Home', href: '#home' },
@@ -31,7 +31,7 @@ export default function Navbar() {
           <img
             src={scrolled ? logoDark : logoWhite}
             alt="Medical Alliance"
-            className="h-11 w-auto"
+            className="h-14 w-auto"
           />
         </a>
 
